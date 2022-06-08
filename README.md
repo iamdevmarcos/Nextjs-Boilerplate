@@ -15,7 +15,13 @@ This project uses lot of stuff as:
 
 ## Getting Started
 
-First, run the development server:
+First, install all packages and remove yarn.lock in the project and run the command:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev

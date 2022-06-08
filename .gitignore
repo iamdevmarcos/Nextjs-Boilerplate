@@ -34,3 +34,7 @@ yarn-error.log*
 # sw stuff
 /public/sw.js
 /public/workbox-*.js
+
+# cypress
+/cypress/screenshots
+/cypress/videos

@@ -15,7 +15,7 @@ This project uses lot of stuff as:
 
 ## Getting Started
 
-First, install all packages and remove yarn.lock in the project and run the command:
+First, remove yarn.lock in the project and after install all dependencies using this command:
 
 ```bash
 npm install

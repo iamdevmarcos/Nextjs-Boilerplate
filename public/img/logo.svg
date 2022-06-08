@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg fill="none" viewBox="0 0 256 56" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 105.08 12.75 L 126.36 1.08 C 127.58 0.409 129.061 0.42 130.27 1.11 L 151 12.96 C 152.239 13.676 153.002 14.999 153 16.43 L 153 39.97 C 153.001 41.424 152.212 42.765 150.94 43.47 L 130.24 54.94 C 129.047 55.601 127.6 55.608 126.4 54.96 L 105.1 43.46 C 103.806 42.762 103 41.41 103 39.94 L 103 16.26 C 103.003 14.801 103.8 13.46 105.08 12.76 L 105.08 12.75 Z" fill="url(#paint0_linear)"/>
+  <ellipse rx="7.65" ry="18.78" transform="matrix(-0.491971, 0.870612, 0.867807, 0.496934, 128, 27.9)" stroke="#fff" stroke-width="1.5"/>
+  <ellipse rx="7.65" ry="18.78" transform="matrix(-0.491971, -0.870612, 0.867807, -0.496934, 128, 27.799999)" stroke="#fff" stroke-width="1.5"/>
+  <ellipse cx="-128.07" cy="-27.85" rx="7.61" ry="18.87" transform="matrix(-1, 0, 0, -1, 0, 0)" stroke="#fff" stroke-width="1.5"/>
+  <ellipse cx="25.01" cy="27.73" rx="3.06" ry="3.04" transform="matrix(0, -1, 1, 0, 100.270004, 52.73)" fill="#fff"/>
+  <defs>
+    <linearGradient id="paint0_linear" x1="24" y1="76" x2="26" y2="19.5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, 103, 0)">
+      <stop stop-color="#F231A5"/>
+      <stop offset="1" stop-color="#FF66C2"/>
+    </linearGradient>
+  </defs>
+</svg>

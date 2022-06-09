@@ -12,7 +12,7 @@ describe("First examples of Cypress", () => {
     cy.findByRole("heading", { name: /next.js boilerplate/i }).should("exist")
   })
 
-  it.skip("should visit my personal website", () => {
+  it("should visit my personal website", () => {
     cy.visit("https://marcosdev.me/")
 
     cy.findByRole("heading", { name: /marcos andre/i }).should("exist")

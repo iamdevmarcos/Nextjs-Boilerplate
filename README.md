@@ -16,7 +16,13 @@ This project uses lot of stuff as:
 
 ## Getting Started
 
-First, remove yarn.lock in the project and after install all dependencies using this command:
+First, to create a project using this boilerplate, use this command:
+
+```bash
+npx create-next-app -e https://github.com/iamdevmarcos/my-boilerplate
+```
+
+After, remove yarn.lock in the project and install all dependencies using this command:
 
 ```bash
 npm install

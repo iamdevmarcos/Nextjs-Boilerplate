@@ -1,6 +1,6 @@
 /// <reference path="../support/index.d.ts" />
 
-describe("Cypress TS", () => {
+describe("First examples of Cypress", () => {
   it("should go to Google", () => {
     cy.google()
   })

@@ -1,15 +1,8 @@
 /// <reference path="../support/index.d.ts" />
 
-describe("First examples of Cypress", () => {
+describe.skip("First examples of Cypress", () => {
   it("should go to Google", () => {
     cy.google()
-  })
-
-  it("should visit homepage of project", () => {
-    cy.visit("/");
-
-    cy.findByAltText(/Imagem de um átomo./i).should("exist")
-    cy.findByRole("heading", { name: /next.js boilerplate/i }).should("exist")
   })
 
   it("should visit my personal website", () => {

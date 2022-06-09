@@ -10,6 +10,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "cy:open": "cypress open",
+    "cy:run": "cypress run",
     "postinstall": "husky install",
     "prepare": "husky install"
   },

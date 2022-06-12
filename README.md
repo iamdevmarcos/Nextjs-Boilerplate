@@ -19,10 +19,10 @@ This project uses lot of stuff as:
 First, to create a project using this boilerplate, use this command:
 
 ```bash
-npx create-next-app -e https://github.com/iamdevmarcos/my-boilerplate
+npx create-next-app -e https://github.com/iamdevmarcos/my-boilerplate --use-npm
 ```
 
-After, remove yarn.lock in the project and install all dependencies using this command:
+**Optional**: If you use yarn to install the dependencies, after install enter in folder of project and remove yarn.lock in the project and install all dependencies using this command:
 
 ```bash
 npm install
@@ -48,7 +48,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - `test:watch`: runs jest in watch mode
 - `cy:open`: runs cypress to e2e tests
 - `cy:run`: runs cypress in headless mode
-- `prepare`: starts configuration of husky
+- `prepare`: starts husky install and configuration
 
 ## Learn More
 

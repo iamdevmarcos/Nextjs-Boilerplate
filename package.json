@@ -27,7 +27,7 @@
     "@commitlint/cli": "^16.1.0",
     "@commitlint/config-conventional": "^16.0.0",
     "@testing-library/jest-dom": "^5.11.0",
-    "@testing-library/react": "^10.4.3",
+    "@testing-library/react": "^12.1.5",
     "@testing-library/cypress": "^8.0.2",
     "@types/jest": "^26.0.3",
     "@types/node": "^17.0.14",

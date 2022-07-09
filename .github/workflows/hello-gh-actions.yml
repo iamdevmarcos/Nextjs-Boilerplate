@@ -12,7 +12,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: 16.x
+          node-version: 16.14.x
 
       - name: Install dependencies
         run: npm install
@@ -22,9 +22,6 @@ jobs:
 
       - name: Run Jest tests
         run: npm run test
-
-      - name: Run Cypress tests
-        run: npm run cy:run
 
       - name: Run Build
         run: npm run build

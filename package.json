@@ -25,7 +25,7 @@
   "devDependencies": {
     "@babel/preset-typescript": "^7.10.1",
     "@commitlint/cli": "^16.1.0",
-    "@commitlint/config-conventional": "^16.0.0",
+    "@commitlint/config-conventional": "^17.0.3",
     "@testing-library/cypress": "^8.0.2",
     "@testing-library/jest-dom": "^5.11.0",
     "@testing-library/react": "^10.4.3",

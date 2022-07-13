@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
+    "generate": "plop --plopfile generators/plopfile.js",
     "test": "jest --maxWorkers=50%",
     "test:watch": "jest --watch",
     "cy:open": "cypress open",
@@ -45,6 +46,7 @@
     "eslint-plugin-react-hooks": "^4.0.4",
     "husky": "^7.0.4",
     "jest": "^26.1.0",
+    "plop": "^2.7.4",
     "prettier": "2.6.2",
     "start-server-and-test": "^1.12.3",
     "typescript": "^4.7.4"

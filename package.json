@@ -31,7 +31,7 @@
     "@testing-library/jest-dom": "^5.11.0",
     "@testing-library/react": "^10.4.3",
     "@types/jest": "^26.0.3",
-    "@types/node": "^18.0.4",
+    "@types/node": "^18.0.6",
     "@types/react": "^17.0.27",
     "@types/styled-components": "^5.1.0",
     "@typescript-eslint/eslint-plugin": "^3.4.0",

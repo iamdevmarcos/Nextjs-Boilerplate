@@ -4,7 +4,7 @@ const isProduction = process.env.NODE_ENV === 'production'
 
 module.exports = withPWA({
   swcMinify: true,
-  experimental: {
+  compiler: {
     // Enables the styled-components SWC transform
     styledComponents: true
   },

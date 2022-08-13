@@ -29,6 +29,6 @@ export const Description = styled.h2`
 `
 
 export const Illustration = styled.img`
-  margin-top: 6rem;
+  margin-top: 1rem;
   width: min(30rem, 100%);
 `

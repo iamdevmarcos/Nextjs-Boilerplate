@@ -10,8 +10,8 @@ const Main = () => (
     </S.Description>
 
     <S.Illustration
-      src="/img/hero-illustration.svg"
-      alt="Um desenvolvedor de frente para uma tela com código."
+      src="/img/hero-illustration.gif"
+      alt="Um laptop ao lado de uma copo de café"
     />
   </S.Wrapper>
 )

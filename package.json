@@ -24,7 +24,7 @@
     "styled-components": "^5.1.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.1.0",
+    "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^16.0.0",
     "@testing-library/cypress": "^8.0.3",
     "@testing-library/jest-dom": "^5.16.5",

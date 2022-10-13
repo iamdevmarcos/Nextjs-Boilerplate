@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-  background-color: #06092b;
+  background-color: #242424;
   color: #fff;
   width: 100%;
   height: 100%;
@@ -13,9 +13,39 @@ export const Wrapper = styled.main`
   justify-content: center;
 `
 
+export const Flex = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+
+  .react {
+    animation: logo-spin infinite 20s linear;
+  }
+
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media (max-width: 400px) {
+    flex-direction: column;
+  }
+`
+
+export const Link = styled.a``
+
 export const Logo = styled.img`
-  width: 30rem;
+  width: 15rem;
   margin-bottom: 5rem;
+
+  &:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
 `
 
 export const Title = styled.h1`
@@ -28,7 +58,8 @@ export const Description = styled.h2`
   font-weight: 400;
 `
 
-export const Illustration = styled.img`
-  margin-top: 1rem;
-  width: min(30rem, 100%);
+export const LearnMore = styled.p`
+  margin-top: 8rem;
+  font-size: 1.6rem;
+  font-weight: 300;
 `

@@ -19,19 +19,19 @@ This project uses lot of stuff as:
 First, to create a project using this boilerplate, use this command:
 
 ```bash
-npx create-next-app -e https://github.com/iamdevmarcos/my-boilerplate --use-npm
+npx create-next-app -e https://github.com/iamdevmarcos/my-boilerplate
 ```
 
-**Optional**: If you use yarn to install the dependencies, after install enter in folder of project and remove yarn.lock in the project and install all dependencies using this command:
+Install all dependencies:
 
 ```bash
-npm install
+yarn install
 ```
 
 Run the development server:
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -44,11 +44,14 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - `build`: creates the production build version
 - `start`: starts a simple server with the build production code
 - `lint`: runs the linter in all components and pages
+- `generate`: consistently create components using plopjs
 - `test`: runs jest to test all components and pages
 - `test:watch`: runs jest in watch mode
 - `cy:open`: runs cypress to e2e tests
 - `cy:run`: runs cypress in headless mode
 - `prepare`: starts husky install and configuration
+- `storybook`: runs storybook on localhost:6006
+- `build-storybook`: create the build version of storybook
 
 ## Learn More
 

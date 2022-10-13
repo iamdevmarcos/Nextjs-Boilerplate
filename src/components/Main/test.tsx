@@ -13,9 +13,19 @@ describe('<Main />', () => {
     ).toBeInTheDocument()
   })
 
+  it('should render the logos', () => {
+    render(<Main />)
+
+    const nextLogo = screen.getByRole('img', { name: /nextjs logo/i })
+    expect(nextLogo).toBeInTheDocument()
+
+    const reactLogo = screen.getByRole('img', { name: /react logo/i })
+    expect(reactLogo).toBeInTheDocument()
+  })
+
   it('should render the colors correctly', () => {
     const { container } = render(<Main />)
 
-    expect(container.firstChild).toHaveStyle({ 'background-color': '#06092b' })
+    expect(container.firstChild).toHaveStyle({ 'background-color': '#242424' })
   })
 })

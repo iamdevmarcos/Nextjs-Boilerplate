@@ -14,9 +14,7 @@
     "cy:run": "cypress run",
     "test:e2e": "start-server-and-test dev 3000 cy:open",
     "postinstall": "husky install",
-    "prepare": "husky install",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "^12.3.1",
@@ -29,14 +27,6 @@
     "@babel/core": "^7.19.1",
     "@commitlint/cli": "^16.1.0",
     "@commitlint/config-conventional": "^16.0.0",
-    "@storybook/addon-actions": "^6.5.12",
-    "@storybook/addon-essentials": "^6.5.12",
-    "@storybook/addon-interactions": "^6.5.12",
-    "@storybook/addon-links": "^6.5.12",
-    "@storybook/builder-webpack5": "^6.5.12",
-    "@storybook/manager-webpack5": "^6.5.12",
-    "@storybook/react": "^6.5.12",
-    "@storybook/testing-library": "^0.0.13",
     "@testing-library/cypress": "^8.0.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",

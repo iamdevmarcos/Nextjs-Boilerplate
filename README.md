@@ -50,8 +50,6 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - `cy:open`: runs cypress to e2e tests
 - `cy:run`: runs cypress in headless mode
 - `prepare`: starts husky install and configuration
-- `storybook`: runs storybook on localhost:6006
-- `build-storybook`: create the build version of storybook
 
 ## Learn More
 

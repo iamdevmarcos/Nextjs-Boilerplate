@@ -60,5 +60,8 @@
     "name": "Marcos Mendes",
     "email": "marcosdev.me@gmail.com",
     "url": "https://github.com/iamdevmarcos"
+  },
+  "engines": {
+    "node": "16"
   }
 }

@@ -26,6 +26,13 @@ describe('<Main />', () => {
   it('should render the colors correctly', () => {
     const { container } = render(<Main />)
 
-    expect(container.firstChild).toHaveStyle({ 'background-color': '#242424' })
+    expect(container.firstChild).toHaveStyle({ 'background-color': '#000000' })
+  })
+
+  it('should render the footer', () => {
+    render(<Main />)
+
+    expect(screen.getByRole('img', { name: /marcos mendes avatar/i }))
+    expect(screen.getByRole('img', { name: /vercel avatar/i }))
   })
 })

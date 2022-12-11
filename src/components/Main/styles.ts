@@ -98,13 +98,3 @@ export const Footer = styled.footer`
     font-size: 1.1rem;
   }
 `
-
-export const Avatar = styled.img`
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-
-  @media (max-width: 450px) {
-    display: none;
-  }
-`

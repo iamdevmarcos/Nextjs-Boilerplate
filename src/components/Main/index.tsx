@@ -1,3 +1,5 @@
+import Avatar from 'components/Avatar'
+
 import * as S from './styles'
 
 const Main = ({
@@ -23,19 +25,19 @@ const Main = ({
     <S.Footer>
       Created by{' '}
       <S.Link href="https://github.com/iamdevmarcos" target="_blank">
-        <S.Avatar
-          src="https://avatars.githubusercontent.com/u/92524722?v=4"
-          alt="Marcos Mendes Avatar"
+        <Avatar
+          source="https://avatars.githubusercontent.com/u/92524722?v=4"
+          alternativeText="Marcos Mendes Avatar"
+          title="Marcos Mendes"
         />
-        <p>Marcos Mendes</p>
       </S.Link>
       and deployed on
       <S.Link href="https://vercel.com/" target="_blank">
-        <S.Avatar
-          src="https://avatars.githubusercontent.com/u/14985020?v=4"
-          alt="Vercel Avatar"
+        <Avatar
+          source="https://avatars.githubusercontent.com/u/14985020?v=4"
+          alternativeText="Vercel Avatar"
+          title="Vercel"
         />
-        <p>Vercel</p>
       </S.Link>
     </S.Footer>
   </S.Wrapper>

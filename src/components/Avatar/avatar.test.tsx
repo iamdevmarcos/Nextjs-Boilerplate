@@ -2,7 +2,7 @@ import React from 'react'
 
 import { render, screen } from '@testing-library/react'
 
-import Avatar, { AvatarProps } from '.'
+import Avatar, { AvatarProps } from './avatar'
 
 describe('<Avatar />', () => {
   const props: AvatarProps = {

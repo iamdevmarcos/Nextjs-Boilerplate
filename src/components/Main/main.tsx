@@ -1,6 +1,6 @@
-import Avatar from 'components/Avatar'
+import Avatar from 'components/Avatar/avatar'
 
-import * as S from './styles'
+import * as S from './main.styles'
 
 const Main = ({
   title = 'Next.js Boilerplate',

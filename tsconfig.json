@@ -23,7 +23,7 @@
   "exclude": [
     "node_modules",
     "cypress",
-    "**/test.tsx"
+    "**/*.test.tsx"
   ],
   "include": [
     "next-env.d.ts",

@@ -21,9 +21,7 @@
     "incremental": true
   },
   "exclude": [
-    "node_modules",
-    "cypress",
-    "**/*.test.tsx"
+    "node_modules"
   ],
   "include": [
     "next-env.d.ts",

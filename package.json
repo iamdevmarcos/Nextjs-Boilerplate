@@ -28,7 +28,7 @@
     "zod": "^3.21.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.1",
+    "@babel/core": "^7.21.4",
     "@commitlint/cli": "^16.1.0",
     "@commitlint/config-conventional": "^16.0.0",
     "@testing-library/jest-dom": "^5.16.5",
